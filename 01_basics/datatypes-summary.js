@@ -6,7 +6,7 @@ types:->String,Number,boolean, null,undefined,Symbol(we need to use in Advanced 
 2. Non primitive DataType(Reference type)
 types:- Object,Array,Functions
 
-JavaScript strictly dynamic language
+JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.
 
 Return type of variables in JavaScript
 1) Primitive Datatypes
