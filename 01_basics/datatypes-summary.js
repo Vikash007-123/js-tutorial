@@ -50,3 +50,26 @@ const myFunction=function(){
 }
  console.log(typeof bigNumber)
  console.log(typeof myFunction)
+
+
+ /************************************ Memory ********************************************/
+ /*
+   stack->primitive
+   Heap->Nonprimitive
+*/
+
+let myYouTubeName="VikashAutomationLab"
+let anotherName=myYouTubeName
+anotherName="chai or code"
+console.log(myYouTubeName)
+console.log(anotherName)
+
+let user={
+    email:"vikash123@ybl.com",
+    upiId:"vfjksdjvb@ybl"
+
+}
+let userTwo=user
+userTwo.email="Google123@com"
+console.log(user.email)
+console.log(userTwo.email)
